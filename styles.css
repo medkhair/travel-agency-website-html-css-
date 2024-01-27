@@ -1,0 +1,237 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 940px ;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h1, h2, h3, h4{
+    color: #444;
+}
+h1{
+    font-family:'Crete Round', sans-serif;
+    font-size: 45px;
+}
+h3{
+    font-size: 30px; 
+}
+h2{
+    font-size: 50px;
+}
+h4{
+    font-size: 24px;
+}
+p{
+    line-height: 20px;
+    color: 777;
+}
+.orange{
+    color:#ff7a00;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+small{
+    font-size: 12px;
+    font-style: italic;
+}
+
+/*header*/
+header{
+    height: 120px;
+}
+header h1{
+    float: left;
+    margin-top: 32px;
+}
+header nav{
+    float:right;
+    margin-top: 50px;
+}
+header nav ul li {
+    color: #444;
+    font-family:'Crete Round', sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+/*image */
+
+#image{
+    height: 580px;
+    background: url('main.jpg') no-repeat center;
+
+}
+#image h2{
+    font-weight: normal;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+.bouton{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+#image a:hover{
+    background: rgb(5, 223, 168);
+}
+
+
+/* steps */
+#steps ul {
+    margin : 100px 0; 
+}
+
+#steps ul li{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right:10px ;
+}
+
+#steps h4{
+    margin-bottom: 20px;
+}
+#steps p{
+    margin-bottom: 20px;
+}
+#step1{
+    background: url('steps-icon-1.png') no-repeat top center;
+}
+#step2{
+    background: url('steps-icon-2.png') no-repeat top center;
+}
+#step3{
+    background: url('steps-icon-3.png') no-repeat top center;
+}
+
+/* ideas */
+
+#ideas{
+    background-color:#efefef;
+    padding: 60px 0; 
+}
+#ideas article{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#ideas article:first-child{
+    margin-right: 20px;
+}
+.overlay{
+    background: rgba(255,255,255,0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius : 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#ideas p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bouton2{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.bouton2:hover{
+    color: #fff;
+    background-color: #13e7d6;
+    
+}
+
+
+/* contact */
+#contact{
+    padding: 60 px 0;
+    text-align: center;
+}
+#contact h3{
+    width: 400px;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02bddd;
+    padding: 20px;
+}
+form{
+    margin: 60px 0 60px 0;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]{
+    padding: :10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.bouton3{
+    color: #fff;
+    font-size: bold;
+    padding : 11px;
+    background-color: #02bddd;
+    border-style: none;
+    border-radius: 3px;
+}
+.bouton3:hover{
+    color: #fff;
+    background-color: #444;
+}
+
+/* footer */
+
+footer{
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
